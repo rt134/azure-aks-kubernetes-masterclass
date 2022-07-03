@@ -14,11 +14,11 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 2.0"
+      version = "~> 3.0"
     }
     azuread = {
       source  = "hashicorp/azuread"
-      version = "~> 1.0"
+      version = "~> 2.0"
     }
     random = {
       source  = "hashicorp/random"
@@ -29,7 +29,7 @@ terraform {
 # Terraform State Storage to Azure Storage Container
   backend "azurerm" {
     resource_group_name   = "terraform-storage-rg"
-    storage_account_name  = "terraformstatexlrwdrzs"
+    storage_account_name  = "terraformstatexlrwdrzsrt"
     container_name        = "tfstatefiles"
     key                   = "terraform.tfstate"
   }  

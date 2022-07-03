@@ -1,7 +1,7 @@
 {
-  "tenantId": "c81f465b-99f9-42d3-a169-8082d61c677a",
-  "subscriptionId": "82808767-144c-4c66-a320-b30791668b0a",
-  "resourceGroup": "dns-zones", 
+  "tenantId": "1e5b5458-38b6-4f71-a9c6-09ea8e0702cf",
+  "subscriptionId": "a7312497-e515-45c5-8b15-4f190986c097",
+  "resourceGroup": "rt-rg1", 
   "useManagedIdentityExtension": true,
-  "userAssignedIdentityID": "97e867dc-ee8c-4f89-bb81-db7c36dca3dc"
+  "userAssignedIdentityID": "af864a71-b976-4dab-93de-ce998738c2fa"
 }
